@@ -160,7 +160,7 @@ a {
 }
 
 .CVJLL-head-adapt {
-    font-size: 5vh;
+    font-size: 20vh;
 }
 
 .CVJLL-container:after, .CVJLL-container:before, .CVJLL-row-padding:after, .CVJLL-row-padding:before{
@@ -175,6 +175,10 @@ a {
 }
 
 @media (min-width: 601px) {
+    .CVJLL-head-adapt {
+        font-size: 5vh;
+    }
+
     .CVJLL-third {
         width: 33.33333%
     }
