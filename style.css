@@ -100,10 +100,9 @@ html {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 36px;
     font-style: italic !important;
     color: #ffffff;
-    margin-left: 0px;
 }
 
 h2 {
@@ -159,10 +158,6 @@ a {
     position: relative
 }
 
-.CVJLL-head-adapt {
-    font-size: 20vh;
-}
-
 .CVJLL-container:after, .CVJLL-container:before, .CVJLL-row-padding:after, .CVJLL-row-padding:before{
     content: "";
     display: table;
@@ -175,10 +170,6 @@ a {
 }
 
 @media (min-width: 601px) {
-    .CVJLL-head-adapt {
-        font-size: 5vh;
-    }
-
     .CVJLL-third {
         width: 33.33333%
     }
