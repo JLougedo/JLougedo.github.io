@@ -183,6 +183,12 @@ a {
     }
 }
 
+@media (max-width: 600px) {
+    .CVJLL-head-adapt{
+        font-size: 20px !important;
+    }
+}
+
 .CVJLL-content {
     margin-left: auto;
     margin-right: auto
