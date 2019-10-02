@@ -183,7 +183,7 @@ a {
     }
 }
 
-@media (max-width: 600px) {
+@media not (min-width: 601px) {
     .CVJLL-head-adapt{
         font-size: 20px !important;
     }
