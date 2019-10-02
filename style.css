@@ -1,102 +1,88 @@
 html {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 *, :after, :before {
-    box-sizing: inherit
-}
-
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    box-sizing: inherit;
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 footer {
-    display: block
+    display: block;
 }
 
 [hidden] {
-    display: none
+    display: none;
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
 }
 
 a:active, a:hover {
-    outline-width: 0
+    outline-width: 0;
 }
 
 b {
-    font-weight: bolder
+    font-weight: bolder;
 }
 
 small {
-    font-size: 80%
+    font-size: 80%;
 }
 
 img {
-    border-style: none
+    border-style: none;
 }
 
 code {
     font-family: monospace, monospace;
-    font-size: 1em
+    font-size: 1em;
 }
 
 hr {
     box-sizing: content-box;
     height: 0;
-    overflow: visible
-}
-
-[type=button], [type=reset], [type=submit] {
-    -webkit-appearance: button
+    overflow: visible;
 }
 
 [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
     border-style: none;
-    padding: 0
+    padding: 0;
 }
 
 [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
-    outline: 1px dotted ButtonText
+    outline: 1px dotted ButtonText;
 }
 
 [type=checkbox], [type=radio] {
-    padding: 0
+    padding: 0;
 }
 
 [type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
-    height: auto
-}
-
-[type=search] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px
+    height: auto;
 }
 
 [type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
-    font: inherit
+    font: inherit;
 }
 
 body, html {
     font-family: Verdana, sans-serif;
     font-size: 15px;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 html {
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 h1 {
@@ -106,31 +92,31 @@ h1 {
 }
 
 h2 {
-    font-size: 30px
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 24px
+    font-size: 24px;
 }
 
 h4 {
-    font-size: 20px
+    font-size: 20px;
 }
 
 h5 {
-    font-size: 18px
+    font-size: 18px;
 }
 
 h6 {
-    font-size: 16px
+    font-size: 16px;
 }
 
 p {
     font-size: 15px;
-    text-align: justify
+    text-align: justify;
 }
 
-h2, h3, h4, h5, h6 , p{
+h2, h3, h4, h5, h6, p {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin-top: 10px;
@@ -138,232 +124,224 @@ h2, h3, h4, h5, h6 , p{
 
 hr {
     border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0
+    border-top: 1px solid #eeeeee;
+    margin: 20px 0;
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 a {
-    color: inherit
+    color: inherit;
 }
 
 :disabled * {
-    pointer-events: none
+    pointer-events: none;
 }
 
 .CVJLL-display-container {
-    position: relative
+    position: relative;
 }
 
-.CVJLL-container:after, .CVJLL-container:before, .CVJLL-row-padding:after, .CVJLL-row-padding:before{
+.CVJLL-container:after, .CVJLL-container:before, .CVJLL-row-padding:after, .CVJLL-row-padding:before {
     content: "";
     display: table;
-    clear: both
+    clear: both;
 }
 
 .CVJLL-third, .CVJLL-twothird, .CVJLL-whole {
     float: left;
-    width: 100%
+    width: 100%;
 }
 
 @media (min-width: 601px) {
     .CVJLL-third {
-        width: 33.33333%
+        width: 33.33333%;
     }
 
     .CVJLL-twothird {
-        width: 66.66666%
+        width: 66.66666%;
     }
 
     .CVJLL-whole {
-        width: 99.99999%
+        width: 99.99999%;
     }
 }
 
 .CVJLL-content {
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .CVJLL-content {
-    max-width: 980px
+    max-width: 980px;
 }
 
 .CVJLL-round {
-    border-radius: 16px
+    border-radius: 16px;
 }
 
-.CVJLL-row-padding, .CVJLL-row-padding > .CVJLL-third, .CVJLL-row-padding > .CVJLL-twothird, .CVJLL-row-padding > .CVJLL-whole{
-    padding: 0 8px
+.CVJLL-row-padding, .CVJLL-row-padding > .CVJLL-third, .CVJLL-row-padding > .CVJLL-twothird, .CVJLL-row-padding > .CVJLL-whole {
+    padding: 0 8px;
 }
 
 .CVJLL-container {
-    padding: .01em 16px
+    padding: .01em 16px;
 }
 
 .CVJLL-card {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
 
 .CVJLL-card-4 {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .2), 0 4px 20px 0 rgba(0, 0, 0, .19)
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .2), 0 4px 20px 0 rgba(0, 0, 0, .19);
 }
 
 @keyframes fading {
     0% {
-        opacity: 0
+        opacity: 0;
     }
     50% {
-        opacity: 1
+        opacity: 1;
     }
     100% {
-        opacity: 0
+        opacity: 0;
     }
 }
 
 @keyframes opac {
     from {
-        opacity: 0
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animatetop {
     from {
         top: -300px;
-        opacity: 0
+        opacity: 0;
     }
     to {
         top: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animateleft {
     from {
         left: -300px;
-        opacity: 0
+        opacity: 0;
     }
     to {
         left: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animateright {
     from {
         right: -300px;
-        opacity: 0
+        opacity: 0;
     }
     to {
         right: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animatebottom {
     from {
         bottom: -300px;
-        opacity: 0
+        opacity: 0;
     }
     to {
         bottom: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes animatezoom {
     from {
-        transform: scale(0)
+        transform: scale(0);
     }
     to {
-        transform: scale(1)
+        transform: scale(1);
     }
 }
 
 .CVJLL-opacity {
-    opacity: .5
-}
-
-.CVJLL-small {
-    font-size: 12px !important
+    opacity: .5;
 }
 
 .CVJLL-large {
-    font-size: 20px !important
+    font-size: 20px !important;
 }
 
 .CVJLL-xxlarge {
-    font-size: 36px !important
+    font-size: 36px !important;
 }
 
 .CVJLL-left {
-    text-align: left !important
+    text-align: left !important;
 }
 
 .CVJLL-right {
-    text-align: right !important
+    text-align: right !important;
 }
 
 .CVJLL-margin-top {
-    margin-top: 16px !important
+    margin-top: 16px !important;
 }
 
 .CVJLL-margin-bottom {
-    margin-bottom: 16px !important
+    margin-bottom: 16px !important;
 }
 
 .CVJLL-margin-right {
-    margin-right: 16px !important
+    margin-right: 16px !important;
 }
 
 .CVJLL-padding {
     padding-top: 16px !important;
-    padding-bottom: 16px !important
+    padding-bottom: 16px !important;
 }
 
 .CVJLL-main-color {
-    color: #000 !important;
-    background-color: #ffaf00 !important
+    color: #000000 !important;
+    background-color: #ffaf00 !important;
 }
 
 .CVJLL-minor-color {
-    color: #000 !important;
-    background-color: #3c6fa4 !important
+    color: #000000 !important;
+    background-color: #3c6fa4 !important;
 }
 
 .CVJLL-card-color {
-    color: #000 !important;
-    background-color: #eeeeee !important
+    color: #000000 !important;
+    background-color: #eeeeee !important;
 }
 
 .CVJLL-backbar-color {
-    color: #000 !important;
-    background-color: #d0d0d0 !important
+    color: #000000 !important;
+    background-color: #d0d0d0 !important;
 }
 
 .CVJLL-background-color {
-    color: #000 !important;
-    background-color: #333333 !important
+    color: #000000 !important;
+    background-color: #333333 !important;
 }
 
 .CVJLL-text-main-color {
-    color: #ffaf00 !important
+    color: #ffaf00 !important;
 }
 
 .CVJLL-text-white {
-    color: #fff !important
-}
-
-.CVJLL-text-black {
-    color: #000 !important
+    color: #ffffff !important;
 }
 
 .CVJLL-text-grey {
-    color: #757575 !important
+    color: #757575 !important;
 }
