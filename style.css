@@ -100,7 +100,7 @@ html {
 }
 
 h1 {
-    font-size: 4vmin;
+    font-size: 40px;
     font-style: italic !important;
     color: #ffffff;
     margin-left: 0px;
@@ -157,6 +157,10 @@ a {
 
 .CVJLL-display-container {
     position: relative
+}
+
+.CVJLL-head-adapt {
+    font-size: 5vh;
 }
 
 .CVJLL-container:after, .CVJLL-container:before, .CVJLL-row-padding:after, .CVJLL-row-padding:before{
